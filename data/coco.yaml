@@ -1,125 +1,2386 @@
-path: ../datasets/coco  # dataset root dir
-train: train2017.txt  # train images (relative to 'path') 118287 images
-val: val2017.txt  # val images (relative to 'path') 5000 images
-test: test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+path: ../datasets/logo  # dataset root dir
+train: train_images_root.txt  # train images (relative to 'path') 118287 images
+val: val_images_root.txt  # val images (relative to 'path') 5000 images
+test: test_images_root.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
 
 # Classes
 names:
-  0: person
-  1: bicycle
-  2: car
-  3: motorcycle
-  4: airplane
-  5: bus
-  6: train
-  7: truck
-  8: boat
-  9: traffic light
-  10: fire hydrant
-  11: stop sign
-  12: parking meter
-  13: bench
-  14: bird
-  15: cat
-  16: dog
-  17: horse
-  18: sheep
-  19: cow
-  20: elephant
-  21: bear
-  22: zebra
-  23: giraffe
-  24: backpack
-  25: umbrella
-  26: handbag
-  27: tie
-  28: suitcase
-  29: frisbee
-  30: skis
-  31: snowboard
-  32: sports ball
-  33: kite
-  34: baseball bat
-  35: baseball glove
-  36: skateboard
-  37: surfboard
-  38: tennis racket
-  39: bottle
-  40: wine glass
-  41: cup
-  42: fork
-  43: knife
-  44: spoon
-  45: bowl
-  46: banana
-  47: apple
-  48: sandwich
-  49: orange
-  50: broccoli
-  51: carrot
-  52: hot dog
-  53: pizza
-  54: donut
-  55: cake
-  56: chair
-  57: couch
-  58: potted plant
-  59: bed
-  60: dining table
-  61: toilet
-  62: tv
-  63: laptop
-  64: mouse
-  65: remote
-  66: keyboard
-  67: cell phone
-  68: microwave
-  69: oven
-  70: toaster
-  71: sink
-  72: refrigerator
-  73: book
-  74: clock
-  75: vase
-  76: scissors
-  77: teddy bear
-  78: hair drier
-  79: toothbrush
+  1: 24seven
+  2: Ace
+  3: aceh
+  4: Admiral
+  5: Aetrex
+  6: Agio
+  7: Aim
+  8: Akubra
+  9: ALAN
+  10: Alexia
+  11: Allstar
+  12: ara
+  13: Artemide
+  14: Ashbury
+  15: Atlantic
+  16: Atlantic Airlines
+  17: Audar
+  18: Aurora
+  19: Avanti
+  20: Baba
+  21: BACCARAT
+  22: BAE
+  23: Baker Skateboards
+  24: Balance
+  25: Bandit
+  26: Barcelo
+  27: Basso
+  28: Beeline
+  29: Berghaus
+  30: Berkshire
+  31: Bexley
+  32: Black and Red
+  33: Black Label Skateboards
+  34: Bobdog
+  35: Bona
+  36: Boscov's
+  37: BOSS
+  38: Boxfresh
+  39: Braun
+  40: Bravo
+  41: Breguet
+  42: BridgePort
+  43: Brooke
+  44: Brooklyn
+  45: BT
+  46: Butler
+  47: Buxton
+  48: C&M Airways
+  49: Cabana
+  50: Calypso
+  51: Carhartt
+  52: Cartier
+  53: Casa Blanca
+  54: Casino
+  55: Centurion
+  56: CHRISTOFLE
+  57: Church's
+  58: CMC
+  59: Colt
+  60: Consort
+  61: Converse
+  62: Cresta
+  63: Crown
+  64: Crumpler
+  65: Crystal
+  66: Dansko
+  67: DC Shoes
+  68: diamond
+  69: Dignity
+  70: Domestos
+  71: Domino
+  72: Domus
+  73: Don Jose
+  74: Dor
+  75: Drifter
+  76: DUX
+  77: DVS Shoes
+  78: DY
+  79: Eagle Creek
+  80: Eastpak
+  81: Ecco
+  82: Elbe
+  83: Emerica
+  84: Emo
+  85: Estrella
+  86: Etnies
+  87: Excelsior
+  88: Georgia Boot
+  89: Goya
+  90: Hamilton
+  91: Hammary
+  92: Hanwag
+  93: Healing_
+  94: Heritage
+  95: HMT
+  96: Hoffman
+  97: Howard
+  98: Imperia
+  99: Jensen
+  100: Joy
+  101: Keen
+  102: Kendo
+  103: Klogs
+  104: Krystal
+  105: KYOCERA
+  106: Lane Furniture
+  107: Leaf
+  108: Lexington
+  109: Libbys
+  110: Lloyd
+  111: LLoyd's
+  112: Longines
+  113: Look
+  114: Love is
+  115: Lowepro
+  116: Makro
+  117: Manhattan Portage
+  118: MARC BY MARC JACOBS
+  119: Margherita
+  120: Matchmakers
+  121: Matt
+  122: Maverik Inc
+  123: MBT
+  124: Meijer
+  125: Meindl
+  126: Memphis
+  127: Mendocino
+  128: miffy
+  129: Moca
+  130: Monopoly
+  131: Murray
+  132: NEI
+  133: Nelson
+  134: Nerds
+  135: Nike
+  136: Nike SB
+  137: Nippon
+  138: Nordstrom Rack
+  139: O'Neill
+  140: OMAS
+  141: ONE
+  142: Origen
+  143: Osiris Shoes
+  144: PacSun
+  145: Palladium
+  146: Panama
+  147: Papillio
+  148: Patio
+  149: Patron
+  150: PG
+  151: Phillies
+  152: Pirates
+  153: Premium
+  154: Primo
+  155: Proto
+  156: puma
+  157: Quiksilver
+  158: RaceWay
+  159: Realtor
+  160: RedDragnfly
+  161: Redline
+  162: Riley
+  163: Rodenstock
+  164: Rogue
+  165: Romika
+  166: Sennheiser
+  167: Seven
+  168: Shake Junt
+  169: Sigma
+  170: Skechers
+  171: Smash
+  172: Spider-Man
+  173: SR
+  174: Steel
+  175: Sterling
+  176: Summit
+  177: Sunlight
+  178: Sunrise
+  179: Supreme
+  180: swan
+  181: TAG Heuer
+  182: Tandy
+  183: Tango
+  184: Tata
+  185: Tatiana
+  186: Teenage Mutant Ninja Turtles
+  187: The Simpsons
+  188: Thomas
+  189: Thorlos
+  190: TIGI
+  191: Time
+  192: Titus
+  193: Tombstone
+  194: Trebor
+  195: Tretorn
+  196: Trio
+  197: Trix
+  198: U.S. Traveler
+  199: Unox
+  200: Vanessa
+  201: Vargas
+  202: Vasque
+  203: Vault
+  204: VH
+  205: VIA
+  206: WESCO
+  207: Wesson
+  208: Weston
+  209: Xtep
+  210: Zamberlan
+  211: A. Fernandez
+  212: ABLE
+  213: AC
+  214: ACID
+  215: Acorn
+  216: Adan y Eva
+  217: Addidas
+  218: Advent
+  219: ALCO
+  220: Alliance
+  221: Almost Skateboards
+  222: Always
+  223: Amador
+  224: Amoco
+  225: Amsterdam
+  226: Anchorage
+  227: AND1
+  228: Animal
+  229: Ankara
+  230: Annapurna
+  231: Antonius
+  232: Arc
+  233: Arena
+  234: Ask
+  235: BAC
+  236: Bahia
+  237: Barr
+  238: Basil
+  239: Batman
+  240: Beretta
+  241: Big League
+  242: Big Red
+  243: Birki's
+  244: Birmingham
+  245: Black Horse
+  246: Bobdog1
+  247: Bomber
+  248: Bounce
+  249: Brioni
+  250: Brother
+  251: Browning
+  252: Buddy
+  253: Buffalo
+  254: Burberry
+  255: Cain
+  256: California
+  257: Cameo
+  258: Carmen
+  259: Caro
+  260: CCM
+  261: Ceceba
+  262: Che
+  263: Cheer
+  264: Chicago
+  265: Chicos
+  266: Clement
+  267: Club Social
+  268: Columbia
+  269: Comfort
+  270: Connaught
+  271: Copeland's
+  272: Cosi
+  273: Covert
+  274: Curtis
+  275: Danish
+  276: Desigual
+  277: Detroit
+  278: DIA
+  279: Diana
+  280: Dibs
+  281: Diesel
+  282: Dip
+  283: Disney Pixar
+  284: Dixie
+  285: Dogwood
+  286: Dolce & Gabbana
+  287: Dome
+  288: Domenico
+  289: Donald
+  290: Double Take
+  291: Dunhill
+  292: Ed Hardy
+  293: EKCO
+  294: El Paso
+  295: Element
+  296: Element Skateboards
+  297: Ellesse
+  298: Elsa
+  299: Emilio
+  300: Era
+  301: Errea
+  302: Escada
+  303: Eskimo
+  304: Europa
+  305: Everlast
+  306: Extreme
+  307: Fabrica
+  308: Fox
+  309: Freebirds
+  310: Frigo
+  311: Fusion
+  312: G-Star
+  313: G-Unit
+  314: G.A.S
+  315: Gabriel
+  316: Gap
+  317: Gazelle
+  318: Getty
+  319: Ghostbusters
+  320: Givova
+  321: Globe
+  322: Gold Rush
+  323: Golite
+  324: Gota
+  325: Grand
+  326: Hancock
+  327: Hanes
+  328: Hartley's
+  329: Hayward's
+  330: HB
+  331: Heart to Heart
+  332: Hield
+  333: Hilal
+  334: Hilleberg
+  335: Holiday
+  336: HS
+  337: Hummel
+  338: Hunor
+  339: Hurley
+  340: Husky
+  341: Ibex
+  342: Ifb
+  343: Imperial
+  344: Indiana
+  345: Intex
+  346: Isla
+  347: ITS
+  348: Jack's
+  349: Jacobs
+  350: JCPenney
+  351: JMB
+  352: JOJO
+  353: K-Swiss
+  354: Kaiser
+  355: Kent
+  356: Kingdom
+  357: KR3W
+  358: Kyoto
+  359: La Perla
+  360: lacoste
+  361: Lane
+  362: LangSha
+  363: Lanka
+  364: Lava
+  365: LEA
+  366: Leite & Alves
+  367: Lemonade
+  368: Lewis
+  369: Liberty
+  370: Life is good
+  371: Liga
+  372: Limited Edition
+  373: Linc
+  374: LLC
+  375: logo Andrew Christian
+  376: Lord & Taylor
+  377: Los Angeles
+  378: Lucky
+  379: Luxor
+  380: Lynx
+  381: Lyon's
+  382: Main Street
+  383: Maple
+  384: Maple & Brown
+  385: Marconi
+  386: Marshmallow
+  387: MDX
+  388: METROPOLIS
+  389: Metropolitan
+  390: Miami
+  391: Michigan
+  392: Miko
+  393: Minerva
+  394: Mirage
+  395: Miranda
+  396: Mitchells & Butlers
+  397: Mizuno
+  398: MOL
+  399: Monark
+  400: MONDI
+  401: Montrail
+  402: Moonshine
+  403: Morgan
+  404: Mountain Equipment
+  405: MP
+  406: Mr. T
+  407: Msting
+  408: Mumtaz
+  409: Murphy
+  410: nau
+  411: Nautica
+  412: Neiman Marcus
+  413: NEXT
+  414: Nickelodeon
+  415: Nine West
+  416: Nomi
+  417: North Coast
+  418: Nostromo
+  419: Nota
+  420: Oceanic
+  421: Oki
+  422: Omo
+  423: Orca
+  424: Original Penguin
+  425: Origins
+  426: Pace
+  427: Padron
+  428: Paragon Pictures
+  429: Paz
+  430: Peak
+  431: Peerless
+  432: Pentax
+  433: Petro
+  434: Piazza
+  435: Pick 'N Pay
+  436: Pillsbury
+  437: Pineapple
+  438: Poppin'
+  439: Pro Plan
+  440: Pye
+  441: Quake
+  442: Quasar
+  443: Red Hot & Blue
+  444: Reebok
+  445: Reef
+  446: REFOSIAN
+  447: Reggae Reggae
+  448: Rima
+  449: Robin Hood
+  450: Roxy
+  451: Russell
+  452: Salewa
+  453: Sara
+  454: Saucony
+  455: Savage
+  456: Scholler
+  457: SeaLife
+  458: Shaw
+  459: Sloggi
+  460: Sonora
+  461: South Beach
+  462: Speedo
+  463: Springfield
+  464: Springs
+  465: Star Wars
+  466: Stars
+  467: Supra
+  468: Supreme1
+  469: Svea
+  470: Swann
+  471: Talbott
+  472: Tandem
+  473: Tatonka
+  474: Tec
+  475: Temptations
+  476: Texan
+  477: The Batman
+  478: The MAX
+  479: Top
+  480: Toscano
+  481: Trespass
+  482: Triumph
+  483: Trouble
+  484: Typhoo
+  485: Underground
+  486: Unicef
+  487: Vans
+  488: Victoria
+  489: Victoria's Secret
+  490: Weaver
+  491: White Castle
+  492: Wild
+  493: XXX
+  494: YES!
+  495: Zoggs
+  496: Zoo York
+  497: Allorgan
+  498: Amino
+  499: Amora
+  500: Amp
+  501: Andrelon
+  502: Anna Sui
+  503: Aqua Mineral
+  504: Aqua Spring
+  505: Aquafresh
+  506: Arcadia
+  507: Astor
+  508: Avene
+  509: AVON
+  510: Axe
+  511: Aztec
+  512: Back to Nature
+  513: Badedas
+  514: BaiDaFu
+  515: Baraka
+  516: Base
+  517: Belk
+  518: Benedit
+  519: BH
+  520: Black Jack
+  521: Blue Sky
+  522: Blue Stratos
+  523: Bold
+  524: Breath Savers
+  525: Brick
+  526: BSR
+  527: Calvin Klein
+  528: Camay
+  529: Cameron's
+  530: chanel
+  531: Charge
+  532: Christina
+  533: CoverGirl
+  534: Cretacolor
+  535: DARLIE
+  536: DHC
+  537: Dominique
+  538: Dove
+  539: Elf
+  540: Elisabeth Bas
+  541: Elta
+  542: Expert
+  543: Full Moon
+  544: Gel
+  545: Giorgio
+  546: GL
+  547: Godrej
+  548: Harrison
+  549: Heat
+  550: Heaven_
+  551: Howard Johnson's
+  552: JMP
+  553: Johnson
+  554: Johnson & Johnson
+  555: Juno
+  556: Kingsley
+  557: Knox
+  558: Lakme
+  559: Luma
+  560: Lusso
+  561: Max Factor
+  562: Mentholatum
+  563: muyingzhijia
+  564: Nail
+  565: Nespresso
+  566: Neutral
+  567: Newark
+  568: Oh's
+  569: OKs
+  570: Ola
+  571: Olay
+  572: Old Spice
+  573: Opal
+  574: OPL
+  575: Organics
+  576: ORLANE
+  577: Peanuts
+  578: Pechoin
+  579: Pep
+  580: Planters
+  581: Pond's
+  582: Princessa
+  583: Pure
+  584: Quelle
+  585: Radox
+  586: RELLET
+  587: Revolution
+  588: Rexona
+  589: ROBERTS
+  590: Sana
+  591: Sedal
+  592: SEI
+  593: SNOOPY
+  594: St Ives
+  595: Stayfree
+  596: Suave
+  597: Sunce
+  598: Sunsilk
+  599: Surya
+  600: Terry's
+  601: Timotei
+  602: TRESemme
+  603: Twinkles
+  604: Ultima
+  605: Ultra
+  606: Voodoo
+  607: Walch
+  608: Watson
+  609: watsons
+  610: YSL
+  611: yuranmei
+  612: Acer
+  613: Acerr
+  614: AERIAL7
+  615: Agfa
+  616: Ainol
+  617: Aiptek
+  618: Akai
+  619: AMD
+  620: Amkette
+  621: Amoi
+  622: Amstrad
+  623: Andrea Electronics
+  624: Apple
+  625: Applek
+  626: Arm
+  627: ASL
+  628: Astro
+  629: Asus
+  630: Asusu
+  631: Avaya
+  632: Aya
+  633: Bang & Olufsen
+  634: Bayern
+  635: Bazooka
+  636: BBK
+  637: BCP
+  638: Beacon
+  639: BEATS BY DRE
+  640: BLACKBERRY
+  641: Blue Star
+  642: BOSE
+  643: Boses
+  644: Breaker
+  645: BTC
+  646: Calistoga
+  647: Calumet
+  648: Casio
+  649: CCE
+  650: Cisco Systems
+  651: Clarion
+  652: Compact
+  653: Connector
+  654: Contax
+  655: Contec
+  656: Contour
+  657: Cooke
+  658: Currys
+  659: Cybertron
+  660: D-Link
+  661: Daewoo Electronics
+  662: Dawa
+  663: Dayton
+  664: Dell
+  665: DELONGHI
+  666: Denver
+  667: DEVOLO
+  668: Digital
+  669: Dimension
+  670: ECS
+  671: El Dorado
+  672: eMachines
+  673: Epson
+  674: Fram
+  675: Fujifilm
+  676: Fujitsu
+  677: Gateway
+  678: Genius
+  679: GoldStar
+  680: GoPro
+  681: Gorenje
+  682: Grundig
+  683: Haier
+  684: Havells
+  685: HCL
+  686: HEC
+  687: Hewlett-Packard
+  688: High Point
+  689: Hisense
+  690: Hitachi
+  691: Honeywell
+  692: hp
+  693: HTC
+  694: huawei
+  695: Hughes & Kettner
+  696: Hypson
+  697: IBM
+  698: IFR
+  699: Iiyama
+  700: Ilford Photo
+  701: Intel
+  702: IQinVision
+  703: Jenoptik
+  704: JL Audio
+  705: Kapsch
+  706: KEF
+  707: Kenko
+  708: Kicker
+  709: KINGSTON
+  710: Kodak
+  711: Konica Minolta
+  712: Leadtek
+  713: Leica
+  714: Lenovo
+  715: Leupold
+  716: LG
+  717: LifeSize
+  718: Lite-On
+  719: LIVESCRIBE
+  720: Logitech
+  721: Luxgen
+  722: Magnafon
+  723: Mamiya
+  724: Man O' War
+  725: Marshall
+  726: MediaTek
+  727: Medion
+  728: Meopta
+  729: Merrell
+  730: Metz
+  731: Microsoft
+  732: Minolta
+  733: Mobotix
+  734: MOPHIE
+  735: motorola
+  736: MSI
+  737: Mud & Bugs
+  738: Multitech
+  739: National
+  740: Nikon
+  741: Olympus
+  742: oppo
+  743: Orbit
+  744: Panasonic
+  745: Pantech
+  746: Pathe
+  747: Pentium
+  748: Phase One
+  749: Philco
+  750: Philips
+  751: Pioneer
+  752: Planar
+  753: Polaroid
+  754: Premier
+  755: Prima
+  756: ProLine
+  757: Punch
+  758: RBM
+  759: RCA
+  760: Ricoh
+  761: SAGEMCOM
+  762: Sakura
+  763: Sampo
+  764: samsung
+  765: San
+  766: Sansui
+  767: Santa Rosa
+  768: Sanyo
+  769: Sea & Sea
+  770: SEG
+  771: Seitz
+  772: Sharp
+  773: Sharp Corporation
+  774: Sibelius
+  775: Sinar
+  776: Sinclair
+  777: sony
+  778: Sony Ericsson
+  779: SPC
+  780: SPECK
+  781: Start
+  782: Suzuki
+  783: SVA
+  784: Tab
+  785: TCL
+  786: Technics
+  787: Teleavia
+  788: Telefunken
+  789: Teletech
+  790: Thomson
+  791: TMA
+  792: TMB
+  793: Toshiba
+  794: Transcend
+  795: Trust
+  796: Tunes
+  797: Universum
+  798: Vestel
+  799: Vim
+  800: VIT
+  801: Vive
+  802: Walton
+  803: 100 Grand Bar
+  804: 1800 Tequila
+  805: A1 Steak Sauce
+  806: Abuelita
+  807: Ace Cider
+  808: Acqua Panna
+  809: Acti-V
+  810: Ades
+  811: After Eight
+  812: Air Crisps
+  813: Airwaves
+  814: Alcyon
+  815: Alec Bradley
+  816: Algida
+  817: Ali Coffee
+  818: All-Bran
+  819: Allens
+  820: Alleycat's Pizza
+  821: Alonso Menendez
+  822: Alpen
+  823: Alpen Gold
+  824: Alpha-Bits
+  825: Alpo
+  826: Alpro Soya
+  827: Altoids
+  828: Amazin' Raisin bar
+  829: America's Incredible Pizza Company
+  830: American Cola
+  831: AMT Coffee
+  832: Amy's Ice Creams
+  833: Andy Capp's fries
+  834: Angie's Kettle
+  835: Anglo Bubbly
+  836: Angry Orchard
+  837: Anthony's Pizza
+  838: Antonio Gimenez
+  839: Apple Cinnamon Chex
+  840: Apple Jacks
+  841: Applebee's
+  842: Appletiser
+  843: Appleton Estate
+  844: Aqua D'Or
+  845: Aquafina
+  846: Aquarius
+  847: Arby's
+  848: Asahi
+  849: AVO
+  850: AWA
+  851: Ayam Brand
+  852: Baby Ruth
+  853: Backwoods
+  854: Bagel-Fuls
+  855: Bakers
+  856: Bamm-Bamm
+  857: Banana Frosted Flakes
+  858: Banana Nut Crunch
+  859: Banania
+  860: Barista Lavazza
+  861: Barq's
+  862: Baskin-Robbins
+  863: Bassett's
+  864: Bazooka1
+  865: Beaulieu
+  866: BEL
+  867: Belinda
+  868: Bell
+  869: Belvita
+  870: Ben & Jerry's
+  871: Beneful
+  872: Benihana
+  873: Bennigan's
+  874: Bianchi
+  875: BiFi
+  876: Big Boy
+  877: Bird's Custard
+  878: Blackthorn Cider
+  879: Blimpie
+  880: Blue Bonnet
+  881: Blue Hills
+  882: Blue Point
+  883: Bluegrass
+  884: Bon Pari
+  885: Boo Berry
+  886: Boston Market
+  887: Boston Pizza
+  888: Bounty
+  889: Brazil
+  890: Breyers
+  891: Britannia
+  892: Brite
+  893: Brooke Bond
+  894: Bru
+  895: Brut
+  896: Bubble Yum
+  897: Buffalo Rock Ginger Ale
+  898: Buitoni
+  899: Bulmers and
+  900: Burger King
+  901: Butchers
+  902: Butterfinger
+  903: Butterfinger BB's
+  904: Butterfinger Bites
+  905: Butterfinger Crisp
+  906: Butterkist
+  907: C. Howard's Violet Candies
+  908: C.A.O
+  909: Cabanas
+  910: Cacique
+  911: Cadbury
+  912: Cafe & Te
+  913: Caffrey's
+  914: Cailler
+  915: Camacho
+  916: Campbells
+  917: Canada Dry
+  918: Canson
+  919: Cap'n Crunch
+  920: Cape Cod Potato Chips
+  921: Capri Sun
+  922: Captain Morgan
+  923: Captain Planet
+  924: Caramel
+  925: Cargills
+  926: Carl's Jr
+  927: Carling
+  928: Carling Black Label
+  929: Carnation
+  930: Carnation (brand)
+  931: Carte Noire
+  932: Carvel Ice Cream
+  933: Casa Dragones
+  934: Casa Noble
+  935: Cascadian Farm
+  936: Celestial Seasonings
+  937: Cerelac
+  938: cestbon
+  939: Cheaders
+  940: Cheerios
+  941: Cheese Nips
+  942: Cheez Whiz
+  943: Chef Boyardee
+  944: Cherry 7Up
+  945: Chex
+  946: Chick-fil-A
+  947: Chiclets
+  948: Chili's
+  949: Chips Ahoy!
+  950: Chocapic
+  951: Chocolate Krave
+  952: Chocomel
+  953: CiCi's Pizza
+  954: Cigar City
+  955: Cinnamon Toast Crunch
+  956: coca cola
+  957: Coca-Cola Zero
+  958: Cocio
+  959: Coco Pops
+  960: Cocoa Krispies
+  961: Cocoa Puffs
+  962: COFCO Corporation
+  963: Coffee-Mate
+  964: coles
+  965: Colinas
+  966: Colonial
+  967: Colossal Crunch
+  968: ConAgra Foods
+  969: Conimex
+  970: Cool Whip
+  971: Coors
+  972: Corn Flakes
+  973: Corn Pops
+  974: Corona
+  975: Coronaa
+  976: Costa Coffee
+  977: Costco Wholesale
+  978: Cote d'Or
+  979: Count Chocula
+  980: Country Crock
+  981: Country Garden
+  982: Cows
+  983: CP
+  984: Cracker Jack
+  985: Cracker Jack'
+  986: Crazy Cow
+  987: Cream of Wheat
+  988: Cream of Wheat'
+  989: Crispin Cider
+  990: Crunch
+  991: Crunchy Corn Bran
+  992: Crunchy Nut
+  993: Crush
+  994: Cruz Tequila
+  995: Dairy Queen
+  996: Dairylea
+  997: Danone
+  998: David Sunflower Seeds
+  999: Davidoff
+  1000: Del Monte
+  1001: Dentyne
+  1002: Depon
+  1003: Dib Dabs
+  1004: Diet Coke
+  1005: Diet Mountain Dew
+  1006: Diplomaticos
+  1007: Dolce Gusto
+  1008: Domino's Pizza
+  1009: Don Julio
+  1010: Don Tomas
+  1011: Doritos
+  1012: Double Chocolate Cookie Crisp
+  1013: Double Chocolate Krave
+  1014: Doublemint
+  1015: Douwe Egberts
+  1016: Dr Pepper
+  1017: Dreyer's
+  1018: Dubble Bubble
+  1019: Dulce Vida
+  1020: Dusseldorfer Lowensenf
+  1021: Dutch Bros. Coffee
+  1022: Dyno-Bites
+  1023: Eco de los Andes
+  1024: Eden Cheese
+  1025: Eggo
+  1026: El Jimador
+  1027: Espolon
+  1028: Esquires
+  1029: Extra
+  1030: Franken Berry
+  1031: Freddo
+  1032: Freedent
+  1033: French's
+  1034: Frijj
+  1035: Friskies
+  1036: Frito-Lay
+  1037: Froot Loops
+  1038: Frosted Flakes
+  1039: Frosted Krispies
+  1040: Frosted Mini-Wheats
+  1041: Frosted Toast Crunch
+  1042: Frosties
+  1043: Fruit 'n Fibre
+  1044: Fruit of the Loom
+  1045: Fruit Stripe
+  1046: Fun Dip
+  1047: ganzhu
+  1048: Garcia Y Vega
+  1049: Gerber
+  1050: Ginger Ale
+  1051: Ginsters
+  1052: Glee Gum
+  1053: Gobstoppers
+  1054: Golden Grahams
+  1055: Good Humor
+  1056: Gourmet
+  1057: Graeter's
+  1058: Grapette
+  1059: Guojiao
+  1060: Gurkha
+  1061: H. J. Heinz
+  1062: H. Upmann
+  1063: haagen-dazs
+  1064: Habaneros
+  1065: Handi-Snacks
+  1066: Harpoon
+  1067: Harvest Moon
+  1068: Havanna
+  1069: Healthy Choice
+  1070: Heineken
+  1071: Heinz
+  1072: Heinz Baked Beans
+  1073: Heinz Tomato Ketchup
+  1074: Helados La Fuente
+  1075: Hellmann's
+  1076: Hershey's Cookies 'n' Creme
+  1077: Hess
+  1078: Highland Spring
+  1079: Highland Toffee
+  1080: Honey & Oat Blenders
+  1081: Honey Bunches of Oats
+  1082: Honey Graham
+  1083: Honey Kix
+  1084: Honey Moon
+  1085: Honey Nut Cheerios
+  1086: Honey Nut Corn Flakes
+  1087: Honey Smacks
+  1088: Horlicks
+  1089: Hot Pockets
+  1090: Hovis
+  1091: HP Sauce
+  1092: Hubba Bubba
+  1093: Hunt's Snack Pack
+  1094: I Can't Believe It's Not Butter
+  1095: Iams
+  1096: Ice
+  1097: Ice Breakers
+  1098: Ice Cream Cones
+  1099: Indomie Mi goreng
+  1100: Irn Bru Bar
+  1101: J2O
+  1102: Jaffa Cake
+  1103: Jamba Juice
+  1104: Jason's Deli
+  1105: Jiaozhou
+  1106: jinlongyu
+  1107: jintanyuye
+  1108: JM's Dominicans
+  1109: Jose Cuervo
+  1110: Jose L. Piedra
+  1111: Julmust
+  1112: Kah Tequila
+  1113: Kecap Bango
+  1114: Kenco
+  1115: kepeng
+  1116: Keystone Ice
+  1117: Keystone Light
+  1118: KFC
+  1119: Kid Cuisine
+  1120: Killian's Irish Red
+  1121: Kinder
+  1122: Kinder Egg
+  1123: Kinnie
+  1124: Kitkat
+  1125: Kix
+  1126: Klondike
+  1127: Knorr
+  1128: Koka noodles
+  1129: Koko Krunch
+  1130: Kool-Aid
+  1131: Kopparbergs
+  1132: KP Nuts
+  1133: Kracks
+  1134: Kraft Eating Right
+  1135: Kraft Foodservice
+  1136: Krave
+  1137: Krave U.S Version
+  1138: Krispy Kreme
+  1139: Krispy Kritters
+  1140: Krumbles-Kellogg's
+  1141: Krusty-O's
+  1142: Kwality Wall's
+  1143: La Aroma de Cuba
+  1144: La Aurora
+  1145: La Choy
+  1146: La Escepcion
+  1147: La Flor Dominicana
+  1148: La Gloria Cubana
+  1149: La Laitiere
+  1150: La Lechera
+  1151: La Palina
+  1152: Lacta
+  1153: Lady's Choice
+  1154: Laffy Taffy
+  1155: Lagunitas
+  1156: Laimao
+  1157: Lakefront
+  1158: Langnese
+  1159: Lares Ice Cream Parlor
+  1160: Las Cabrillas
+  1161: Latinos
+  1162: Laurentide
+  1163: LAVAZZA
+  1164: Lay's Stax
+  1165: Lean Cuisine
+  1166: Lean Pockets
+  1167: LEE KUM KEE
+  1168: Lefevre-Utile
+  1169: Les Brasseurs
+  1170: Levissima
+  1171: Liancheng
+  1172: Life Savers
+  1173: Liga Privada
+  1174: Limca
+  1175: Lipton
+  1176: Lipton Ice Tea
+  1177: Liptonice
+  1178: Little Caesars
+  1179: Loacker
+  1180: logo Bubblicious
+  1181: logo Cadbury
+  1182: logo Scooby-Doo!
+  1183: logo Slimer!
+  1184: LongHorn Steakhouse
+  1185: Lucky Charms
+  1186: Lucozade
+  1187: Luhua
+  1188: Lunchables
+  1189: M & M's
+  1190: Maestro Dobel
+  1191: Maggi
+  1192: Maggi Masala noodles
+  1193: MaggieMoo's Ice Cream and Treatery
+  1194: Magners Irish
+  1195: Maille
+  1196: Maizena
+  1197: Maker's Mark
+  1198: Maltesers
+  1199: Marble Slab Creamery
+  1200: Marie Callender's
+  1201: Mario's Pizzeria
+  1202: Market Pantry
+  1203: MARLBORO
+  1204: Marmite
+  1205: Mars
+  1206: Marsh Wheeling
+  1207: MarsInc
+  1208: Maxibon
+  1209: Maxwell House
+  1210: Maynards
+  1211: McCoys Crisps
+  1212: McDonald's
+  1213: McDonalds
+  1214: Mecca Cola
+  1215: Mentos
+  1216: Metamucil
+  1217: Mighty Dog
+  1218: Mikes
+  1219: Mikkeller
+  1220: Milka
+  1221: Milky Way
+  1222: Milkybar
+  1223: Miller Genuine Draft
+  1224: Milo cereals
+  1225: Mini-Wheats
+  1226: Minute Rice
+  1227: Miracle Whip
+  1228: Mirinda
+  1229: Mist
+  1230: Mojos
+  1231: Molson
+  1232: Molson Canadian
+  1233: Molson Canadian 67
+  1234: Molson Dry
+  1235: Molson Export
+  1236: Molson Golden
+  1237: Molson Ice
+  1238: Molson M
+  1239: Molson XXX
+  1240: Monster
+  1241: Monster Energy
+  1242: Monster Moca
+  1243: Monster Munch
+  1244: Montecristo
+  1245: Monteiths Crushed
+  1246: Moorhouse's
+  1247: Mountain Dew
+  1248: Mr Greedy
+  1249: Mr Kipling
+  1250: Mrs. Fields
+  1251: Mug Root Beer
+  1252: mulinsen
+  1253: Multi-Bran Chex
+  1254: MultiGrain Cheerios
+  1255: Munch
+  1256: Murphy's
+  1257: Muzz Buzz
+  1258: Naleczowianka
+  1259: Nan
+  1260: NAN HA
+  1261: Natural Confectionery
+  1262: Nature Valley
+  1263: Neco Foods
+  1264: Nectar
+  1265: Negra Modelo
+  1266: Nehi
+  1267: Nerds Rope
+  1268: NESCAFE
+  1269: Nescau
+  1270: Nesfruta
+  1271: Nesquik
+  1272: Nestea
+  1273: Nestle
+  1274: Nestle Aquarel
+  1275: Nestle Crunch
+  1276: Nestle Drumstick
+  1277: Nestle NesQuik
+  1278: Nestle Omega
+  1279: Nestle Princessa
+  1280: Nestle Ski
+  1281: Nestum
+  1282: Newman's Own
+  1283: Nice 'n Easy
+  1284: Nido
+  1285: Nissin
+  1286: niulanghan
+  1287: Nobby's Nuts
+  1288: Noble
+  1289: NOCO
+  1290: Noodles & Company
+  1291: Numi Organic
+  1292: Nutri-Grain
+  1293: Nuts
+  1294: Oat Bran Squares
+  1295: Oat Cluster Cheerios Crunch
+  1296: Oat Crisp
+  1297: Oatibix
+  1298: Oats
+  1299: Oliva
+  1300: Olive Garden
+  1301: Olmeca
+  1302: Oops All Berries
+  1303: Opavia
+  1304: Optifast
+  1305: Oral-B
+  1306: Orangina
+  1307: Orchard Crisps
+  1308: Oreo
+  1309: Organic Wild Puffs
+  1310: Orion
+  1311: Oronamin C
+  1312: Oroweat
+  1313: Orthaheel
+  1314: Orville Redenbacher's
+  1315: Oscar Mayer
+  1316: Outback Steakhouse
+  1317: Ovaltine
+  1318: Ozarka
+  1319: Paddle pop
+  1320: Panasonic1
+  1321: Panera Bread
+  1322: Papa John's Pizza
+  1323: Papa Murphy's
+  1324: Parma violets
+  1325: Partagas
+  1326: Pascall
+  1327: Peanut Butter
+  1328: Pebbles
+  1329: Peet's Coffee & Tea
+  1330: Penn
+  1331: Pennzoil
+  1332: Peperami
+  1333: Pepperidge Farm
+  1334: pepsi
+  1335: Pepsi Max
+  1336: Perrier
+  1337: Persil
+  1338: Perugina Baci
+  1339: Petcom
+  1340: Peter Pan
+  1341: Pfanni
+  1342: PG Tips
+  1343: Pibb Xtra
+  1344: Pik-Nik
+  1345: Pita Pit
+  1346: Pixian
+  1347: Pizza California
+  1348: Pizza Hut
+  1349: Pizza Inn
+  1350: PizzaExpress
+  1351: PJ's Coffee
+  1352: Pocari Sweat
+  1353: Podravka
+  1354: Poland Spring
+  1355: Police
+  1356: Polly-O
+  1357: Pot Noodle
+  1358: PowerBar
+  1359: Powwow
+  1360: Preem
+  1361: Prince Polo
+  1362: Pringles
+  1363: Puff
+  1364: Pure Life
+  1365: Purina
+  1366: qiaqia
+  1367: Quaker Oatmeal Squares
+  1368: Quiznos
+  1369: Radical
+  1370: Rainbow Brite
+  1371: Rainbow Nerds
+  1372: Rainforest Cafe
+  1373: Raisin Bran
+  1374: Razzles
+  1375: Red Bull
+  1376: Reese's Puffs
+  1377: Refreshers Gums
+  1378: Rekorderlig
+  1379: Reliv
+  1380: Remington
+  1381: Rewe
+  1382: Rice Krispies
+  1383: Richard Petty 43's
+  1384: Richfield
+  1385: Ricola
+  1386: Ricore
+  1387: Rocky Mountain
+  1388: Root Beer
+  1389: Royal baking
+  1390: Runza
+  1391: S'mores Krave
+  1392: Sainsbury's
+  1393: Saladworks
+  1394: San Miguel
+  1395: Sarson's
+  1396: Sauza
+  1397: Savanna Dry
+  1398: Savory
+  1399: Sbarro
+  1400: Schlotzsky's
+  1401: Schweppes Tonic
+  1402: Screamers
+  1403: Sea Dog
+  1404: Sealtest
+  1405: Seasons 52
+  1406: Seattle's Best Coffee
+  1407: Segafredo
+  1408: Senator
+  1409: Sesame Street
+  1410: Seven Seas
+  1411: seven-up
+  1412: Shake 'n Bake
+  1413: Shakey's Pizza
+  1414: Shoney's
+  1415: Shoprite
+  1416: Shorai
+  1417: Shredded Oats
+  1418: Shredded Wheat
+  1419: Shreddies
+  1420: Siboney
+  1421: Sierra Mist
+  1422: Sierra Nevada
+  1423: Siglo
+  1424: Singer
+  1425: SITIR LIQUOR CO
+  1426: Sizzler
+  1427: Skinny Cow
+  1428: Skippy
+  1429: Skittles
+  1430: Slim Jim
+  1431: smart
+  1432: Smartfood
+  1433: Smarties
+  1434: Smashburger
+  1435: Smith & Forge Hard
+  1436: Smith's Crisps
+  1437: Smurf Berry Crunch
+  1438: Snack Attack
+  1439: SnackWells
+  1440: Snapple
+  1441: Snapz Crisps
+  1442: Snickers
+  1443: Snoopy Sno-Cone
+  1444: Somersby cider
+  1445: Sonic Drive-In
+  1446: Special K
+  1447: Sprecher
+  1448: Sprite Zero
+  1449: Squirt
+  1450: St
+  1451: Stanley
+  1452: Starbucks
+  1453: Stash
+  1454: Steam Whistle
+  1455: Stella
+  1456: Stella Artois Cidre
+  1457: Stones Bitter
+  1458: Stork margarine
+  1459: Strawberry Shortcake
+  1460: Stretch Island Fruit
+  1461: Strongbow
+  1462: Subway
+  1463: Suchard
+  1464: Suflair
+  1465: Sugar Crisp
+  1466: Sugar Puffs
+  1467: Sugar Sprinkled Twinkles
+  1468: Sultana Bran
+  1469: Sunkist
+  1470: Sunny Delight
+  1471: Swedish Glace
+  1472: Sweet Leaf
+  1473: SweeTarts
+  1474: Swensen's
+  1475: Swisher
+  1476: T.G.I. Friday's
+  1477: Tabacos Baez
+  1478: Taco Bell
+  1479: Taibai
+  1480: Taitaile
+  1481: Tang
+  1482: Tanggou
+  1483: Taster's Choice
+  1484: Tayto Fusion
+  1485: Tchibo
+  1486: TDK
+  1487: Ted Drewes
+  1488: Teddy Grahams
+  1489: Telepizza
+  1490: Tetley
+  1491: Texas Roadhouse
+  1492: The California Raisins
+  1493: The Coffee Club
+  1494: The Pizza Company
+  1495: thirst cola
+  1496: Thistly Cross
+  1497: Thorn
+  1498: Thorntons
+  1499: Thrills
+  1500: Tic Tac
+  1501: Tim Hortons
+  1502: Tim Tam
+  1503: Tiny Toon Adventures
+  1504: Toasted Chips
+  1505: Toby
+  1506: Toddy (PepsiCo)
+  1507: Toffee Crisp
+  1508: Toll House
+  1509: Tootsie Roll
+  1510: Totino's
+  1511: Toy Machine
+  1512: Trail's End
+  1513: Trakinas
+  1514: Tree Top
+  1515: Trident
+  1516: Triscuit
+  1517: Trolli
+  1518: Tropicana
+  1519: Tsingtao
+  1520: TUC
+  1521: Twin Peaks
+  1522: Twistee Treat
+  1523: Twisties
+  1524: Twix
+  1525: Tylenol
+  1526: Tyrrells Apple Chips
+  1527: U'Luvka
+  1528: Uiltje
+  1529: Uncle Joe's Mint Balls
+  1530: Uncle Sam
+  1531: Uneeda Biscuits
+  1532: Unibic Anzac Biscuits
+  1533: Unilever Food Solutions
+  1534: United Biscuits
+  1535: Uno Chicago Grill
+  1536: Valdez
+  1537: Van Camp's
+  1538: Vana Tallinn
+  1539: Vanilla Chex
+  1540: Vanilla Cookie Crisp
+  1541: Vegemite
+  1542: Velveeta
+  1543: VIMAL
+  1544: Vimto
+  1545: Vittel
+  1546: Vocelli Pizza
+  1547: Volvic
+  1548: Voss (water)
+  1549: Walkers
+  1550: Walkers Shortbread
+  1551: Wall's
+  1552: wanglaoji
+  1553: Weet-Bix
+  1554: Weetabix Minis
+  1555: Wheat Crunchies
+  1556: Wheat Thins
+  1557: Wheaties
+  1558: Willem II
+  1559: Winchester
+  1560: Wonka Bars
+  1561: Woodchuck Hard
+  1562: Wotsits
+  1563: Wuliangye
+  1564: Xiaojiaolou
+  1565: Xurisheng
+  1566: yanghe
+  1567: yanjing
+  1568: Yazoo Chill
+  1569: Yellow Cab Pizza Co
+  1570: Yinlu Food
+  1571: YooHoo
+  1572: 100 anos
+  1573: ABX Air
+  1574: AEK
+  1575: Aero Contractors
+  1576: Agip
+  1577: Aida
+  1578: Air Cargo Carriers
+  1579: Air Evac
+  1580: Air Sunshine
+  1581: Air Transport International
+  1582: AirTran Airways
+  1583: Al Manhal
+  1584: Alamo
+  1585: Alaska Airlines
+  1586: Aldi
+  1587: Allbright
+  1588: Allegiant Air
+  1589: Allied Telesis
+  1590: Aloha Air Cargo
+  1591: Alpine Air Express
+  1592: Alsa
+  1593: Amazon at Lab126
+  1594: American Airlines
+  1595: Ameriflight
+  1596: Amerijet International
+  1597: Ameristar Air Cargo
+  1598: Ameristar Jet Charter
+  1599: Ampeg
+  1600: Anitech
+  1601: AOC
+  1602: Aopen
+  1603: APAP
+  1604: APCO
+  1605: Apex
+  1606: Aral
+  1607: Arctic
+  1608: Arctic Circle Restaurants
+  1609: Argo
+  1610: Argosy
+  1611: Arnotts
+  1612: Arrowhead
+  1613: Asda
+  1614: Auchan
+  1615: Axis
+  1616: BaiDu
+  1617: Baltimore
+  1618: BANK OF CHINA
+  1619: BDI
+  1620: Best Western Hotels
+  1621: BiSA
+  1622: Black Angus Steakhouse
+  1623: Black-eyed Pea
+  1624: BOSCH
+  1625: Britvic
+  1626: Carmel I
+  1627: Cathay
+  1628: CBS
+  1629: Cenex
+  1630: Checkers
+  1631: Chevron
+  1632: CHINA CITIC
+  1633: Choice Hotels
+  1634: CHS
+  1635: Chubbys
+  1636: Citgo
+  1637: Copec
+  1638: Country
+  1639: Creemore
+  1640: CTG
+  1641: CTS
+  1642: Dave & Buster's
+  1643: Deer Park
+  1644: Dollar
+  1645: Dollar General
+  1646: Dollar Tree
+  1647: DTC
+  1648: Durea
+  1649: E.T
+  1650: Eagle Boys
+  1651: Eat it
+  1652: Eclipse
+  1653: Ecopetrol
+  1654: Edeka
+  1655: Embraer
+  1656: EMS
+  1657: Esso
+  1658: Estuary
+  1659: ExpressJet
+  1660: Exxon
+  1661: Fairbanks
+  1662: Frankie & Benny's
+  1663: Fred Meyer
+  1664: Fresca
+  1665: Frisco
+  1666: Frys
+  1667: Fuddruckers
+  1668: Fuji Xerox
+  1669: Gale's
+  1670: Galopp
+  1671: Galp
+  1672: Gambit
+  1673: Gas Rite
+  1674: GE
+  1675: General Electric
+  1676: General Mills
+  1677: Glock
+  1678: Golden Crown
+  1679: Google
+  1680: Granada
+  1681: Granville
+  1682: Green & Blacks Halls
+  1683: Greenergy
+  1684: Greensboro
+  1685: Ground Round
+  1686: Gulf Oil
+  1687: Hard Rock Cafe
+  1688: Hardee's
+  1689: Heartland
+  1690: Hilton Worldwide
+  1691: Hitachi1
+  1692: HMV
+  1693: Hoffmann
+  1694: Hong Kong
+  1695: Ibis
+  1696: IFA
+  1697: IHOP
+  1698: Indian
+  1699: Indianapolis
+  1700: INDUSTRIAL AND COMMERCIAL BANK OF CHINA
+  1701: Intermarche
+  1702: Island
+  1703: J. Lancaster & Son
+  1704: J.P. Morgan
+  1705: Java
+  1706: JD
+  1707: John Deere
+  1708: JS
+  1709: JVC
+  1710: k-mart
+  1711: Kmart
+  1712: Kogan
+  1713: Kohl's
+  1714: Kroger
+  1715: Krush
+  1716: KTM
+  1717: La Casona
+  1718: Lamb Weston
+  1719: Leclerc
+  1720: Lone Star Steakhouse & Saloon
+  1721: Long John Silver's
+  1722: Los Angeles International Airport
+  1723: Mack & Dave's Department Store
+  1724: Macy's
+  1725: Mad River
+  1726: Marathon Petroleum
+  1727: Marmara
+  1728: Marriott International
+  1729: Marshalls
+  1730: Marvel
+  1731: Massmart
+  1732: Max & Erma's
+  1733: Mazzio's
+  1734: McCafe
+  1735: Metro AG
+  1736: Mirc
+  1737: Mossberg
+  1738: Motta
+  1739: Moultrie
+  1740: MR
+  1741: Munchies
+  1742: Neckermann
+  1743: Nilla
+  1744: nokia
+  1745: Non-Stop
+  1746: O'Charley's
+  1747: Orange
+  1748: Padilla
+  1749: PAM
+  1750: Panda Express
+  1751: Paris
+  1752: PEL
+  1753: Pertamina
+  1754: Picnic
+  1755: PINGAN
+  1756: Planet Hollywood
+  1757: Prize
+  1758: Project Eden
+  1759: Quality
+  1760: Radisson Hotels
+  1761: Rahr
+  1762: Red Barn
+  1763: Red Rock
+  1764: Ritz
+  1765: Robinsons
+  1766: Ross
+  1767: Sainte
+  1768: Santander
+  1769: Sears
+  1770: SGI
+  1771: Smart Start
+  1772: Sonae
+  1773: STO
+  1774: Stouffers
+  1775: Super 8
+  1776: Tallgrass
+  1777: Target
+  1778: TECO
+  1779: Teleton
+  1780: Tesco
+  1781: The Halal
+  1782: The Real Deal
+  1783: Three A
+  1784: TIANCAI
+  1785: Tiffin
+  1786: Toronto
+  1787: Transcom
+  1788: TravelCenters
+  1789: Traveler
+  1790: Tres
+  1791: Twist
+  1792: Uny
+  1793: Uway
+  1794: Voice
+  1795: Walmart
+  1796: Wegmans
+  1797: Westfield
+  1798: Williams
+  1799: Windermere
+  1800: Wingstop
+  1801: Winn-Dixie
+  1802: Winterfest
+  1803: Wipro
+  1804: Wonka
+  1805: woolworths
+  1806: Yahoo! Messenger
+  1807: YUNDA
+  1808: Zar
+  1809: Zaxby's
+  1810: Airfix
+  1811: Alien Workshop
+  1812: American Machine and Foundry
+  1813: Anschutz
+  1814: BARLIE
+  1815: Bill & Ted's Excellent
+  1816: Billabong
+  1817: Billabongg
+  1818: Blind Skateboards
+  1819: Boyds
+  1820: Brio
+  1821: Brunswick
+  1822: Build-A-Bear
+  1823: Burtons
+  1824: Cat in the Hat
+  1825: Chuck E. Cheese's
+  1826: Circa
+  1827: Cleveland
+  1828: Club
+  1829: Coconut tree
+  1830: Condor
+  1831: Crystal1
+  1832: Cupido
+  1833: Disney
+  1834: Donkey Kong
+  1835: Dudley Do-Right
+  1836: FUJITSU
+  1837: G.I. Joe Action Stars
+  1838: GameWorks
+  1839: Gremlins
+  1840: High School Musical
+  1841: Hooters
+  1842: Hot Wheels
+  1843: Hulk
+  1844: Impulse
+  1845: Independent Truck
+  1846: Kaboom
+  1847: KAWASAKI
+  1848: Kryptonics
+  1849: Kung Fu Panda Crunchers
+  1850: Lego
+  1851: Mattel
+  1852: Mickey Mouse
+  1853: Mojang
+  1854: Montclair
+  1855: Mr. Potatohead
+  1856: Nelly
+  1857: Nelsons's
+  1858: Nintendo
+  1859: Nutty
+  1860: OMV
+  1861: Pac-Man
+  1862: PDV
+  1863: Pogo
+  1864: Pokemon
+  1865: Positivo
+  1866: ProTech
+  1867: Puffins
+  1868: QINGHUA
+  1869: Qinyong
+  1870: R&I
+  1871: Rail Road tracks
+  1872: Revell
+  1873: Rip Curl
+  1874: Roses
+  1875: Rovio
+  1876: Rubik's Cube
+  1877: Sailor
+  1878: SAKURA
+  1879: Sandra
+  1880: Santa Barbara
+  1881: Sector
+  1882: Selecta
+  1883: Sessions
+  1884: Shaolin Temple
+  1885: Sherwood
+  1886: Shrek's
+  1887: Siemens AG
+  1888: Ski
+  1889: SlimarGaming
+  1890: Snow Flakes
+  1891: Solo
+  1892: Soundwave
+  1893: Speakeasy
+  1894: SpongeBob SquarePants
+  1895: Srathmore
+  1896: Stage
+  1897: Standard
+  1898: Star Energy
+  1899: SUNING
+  1900: Tauro
+  1901: Te Amo
+  1902: The Fairly OddParents
+  1903: Transformers
+  1904: Universal
+  1905: Victor
+  1906: Vision
+  1907: Wham!
+  1908: yanlaihong
+  1909: Albertsons
+  1910: Alcon
+  1911: Angelina
+  1912: Apiretal
+  1913: Back to Nature1
+  1914: Becel
+  1915: Blaser
+  1916: Bottle Caps
+  1917: Brandt
+  1918: Brasil & Movimento
+  1919: Calpol
+  1920: Caress
+  1921: CBD
+  1922: Clinic
+  1923: Clinica
+  1924: Colgate
+  1925: CTC
+  1926: Efferalgan
+  1927: Herron
+  1928: Hospitals
+  1929: Impact
+  1930: jinsangzi
+  1931: Kirkland Signature
+  1932: Lacto
+  1933: Lexi
+  1934: Lifebuoy
+  1935: Musashi
+  1936: Nicorette
+  1937: Panadol
+  1938: Panago
+  1939: Peppersmith
+  1940: Pepsodent
+  1941: PerkinElmer
+  1942: Prodent
+  1943: Raisin
+  1944: Rembrandt toothpaste
+  1945: Rexel
+  1946: saky
+  1947: Schneider Electric
+  1948: Sensodyne
+  1949: Sunstar
+  1950: Sushida
+  1951: Swiss
+  1952: Tamarind
+  1953: Texas Instruments
+  1954: Therabreath
+  1955: Tom's of Maine
+  1956: Triaminic
+  1957: AEROBED
+  1958: AICO
+  1959: Ala
+  1960: Alba
+  1961: Alhambra
+  1962: Ambrosia
+  1963: Aquapod
+  1964: ARCO
+  1965: Argus
+  1966: Ariel
+  1967: Ariell
+  1968: ASCASO
+  1969: Ashley
+  1970: Ashton
+  1971: Aspen Home
+  1972: AXA
+  1973: Baccarat
+  1974: Bassett
+  1975: Beautyrest (Simmons)
+  1976: bilang
+  1977: Bilisten
+  1978: BJ's Wholesale Club
+  1979: BODUM
+  1980: Boulder
+  1981: Bushnell
+  1982: Candle
+  1983: Capital
+  1984: Cascade
+  1985: Cauldron
+  1986: Cesars
+  1987: CGE
+  1988: Charmin
+  1989: CHEF
+  1990: Chopard
+  1991: Cif
+  1992: Circus Fun
+  1993: Citizen
+  1994: Colonial1
+  1995: Conoco
+  1996: Conway
+  1997: Cosan
+  1998: Crayola
+  1999: Cuisinart
+  2000: Dawn
+  2001: Dent Health
+  2002: Derwent
+  2003: DMC
+  2004: Downy
+  2005: Dr Brown's
+  2006: Duracell
+  2007: Durex
+  2008: Dyson
+  2009: Edelrid
+  2010: Edison
+  2011: Elfin
+  2012: Esselte
+  2013: Eukanuba
+  2014: Eureka
+  2015: Excalibur
+  2016: Excel
+  2017: Faber
+  2018: Fairtex
+  2019: Fairy
+  2020: Frost
+  2021: Gain
+  2022: Gebhardt
+  2023: GEFU
+  2024: Gibson
+  2025: Gillette
+  2026: Good Morning
+  2027: Gorila
+  2028: GPM
+  2029: Gull
+  2030: Haier1
+  2031: Hercules
+  2032: Hillman
+  2033: Hoover
+  2034: Hoya
+  2035: Ideal
+  2036: Invicta
+  2037: Ipso
+  2038: Ivory
+  2039: Johnson & Phillips
+  2040: Karma
+  2041: KENWOOD LIMITED
+  2042: Kern
+  2043: Keystone
+  2044: King
+  2045: Kins
+  2046: La Vie
+  2047: LeBlanc
+  2048: Leed
+  2049: LEKUE
+  2050: Lever 2000
+  2051: Life
+  2052: Liquitex
+  2053: LOTOS
+  2054: Lotus
+  2055: Loyd
+  2056: LS
+  2057: Lux
+  2058: MAD DOG
+  2059: Maple Leaf
+  2060: Marvis
+  2061: Master
+  2062: Maxum
+  2063: Meswak
+  2064: MICROPLANE
+  2065: Mikasa
+  2066: Milwaukee
+  2067: Mintad
+  2068: Monami
+  2069: Mondia
+  2070: Monsters University
+  2071: Montblanc
+  2072: Mr. Clean
+  2073: Mr.Muscle
+  2074: MTC
+  2075: MTs
+  2076: NCR
+  2077: Novara
+  2078: Old Hickory
+  2079: Orange Blossom
+  2080: Oregon Scientific
+  2081: Osram
+  2082: Osram Sylvania
+  2083: Overture
+  2084: Paint marker
+  2085: Pampers & Pampers Kandoo
+  2086: Paper Mate
+  2087: Parker
+  2088: PBS
+  2089: Pearson
+  2090: Peters
+  2091: Pillow Pets
+  2092: Pilot
+  2093: Primos
+  2094: Promise
+  2095: Quatro
+  2096: Quoizel
+  2097: Quorum
+  2098: Red Oak
+  2099: Rex
+  2100: Reynolds
+  2101: ROSLE
+  2102: Rotring
+  2103: Safeway
+  2104: SAGAFORM
+  2105: SBR
+  2106: Scotch
+  2107: Selco
+  2108: Sharpie
+  2109: Sheaffer
+  2110: SHINETIME
+  2111: Skip
+  2112: Sodastream
+  2113: SONICARE
+  2114: Stearns
+  2115: Streets
+  2116: Stressless
+  2117: Sunbeam
+  2118: Sunoco
+  2119: SUPER8
+  2120: Sure
+  2121: SureFire
+  2122: Sylvania
+  2123: Sysline
+  2124: Tide
+  2125: Tidy Cats
+  2126: Tiger Power
+  2127: Tropitone
+  2128: TSMC
+  2129: Usha
+  2130: vatti
+  2131: Wagner
+  2132: Warwick
+  2133: Waterman
+  2134: Wellington
+  2135: Westminster
+  2136: WMF
+  2137: Zenith
+  2138: Zumtobel
+  2139: A-bike
+  2140: Abici
+  2141: Accel
+  2142: Acura
+  2143: Adio
+  2144: Alfa
+  2145: Alfa Romeo
+  2146: Alpine
+  2147: American Bicycle
+  2148: American Star Bicycle
+  2149: Amuza
+  2150: ANCAP
+  2151: Anteros
+  2152: Aprilia
+  2153: Arash
+  2154: Argon 18
+  2155: Ascari
+  2156: Associated
+  2157: Aston Martin
+  2158: Atala
+  2159: Atlanta
+  2160: Audi
+  2161: Avion
+  2162: Bajaj
+  2163: Barracuda
+  2164: Barrow
+  2165: Beko
+  2166: Benelli
+  2167: Bentley
+  2168: Berlin & Racycle
+  2169: Bertone
+  2170: Bharat
+  2171: Birdy
+  2172: BMC
+  2173: BMW
+  2174: Boost
+  2175: BP
+  2176: Bridgestone
+  2177: Brilliance
+  2178: Bristol
+  2179: BSA
+  2180: Buick
+  2181: BYD
+  2182: Cadillac
+  2183: Caloi
+  2184: Caltex
+  2185: Cannondale
+  2186: Canon
+  2187: Caparo
+  2188: Capri
+  2189: Carrefour
+  2190: Cello
+  2191: Chery
+  2192: Chevrolet
+  2193: Citroen
+  2194: Colnago
+  2195: Continental
+  2196: D&S
+  2197: Dacia
+  2198: Daewoo
+  2199: Daihatsu
+  2200: De Rosa
+  2201: Delta
+  2202: Diamant
+  2203: Diamondback
+  2204: Dodge
+  2205: Ducati
+  2206: Dunlop
+  2207: Electra
+  2208: Freightliner
+  2209: Frontier
+  2210: Fuji
+  2211: Geely
+  2212: Genesis
+  2213: Gibbs
+  2214: GMC
+  2215: Graf & Stift
+  2216: Great Wall
+  2217: GT Bicycles
+  2218: HaiNan Airlines
+  2219: Harley-Davidson
+  2220: Hero Cycles
+  2221: Hindustan
+  2222: Holden
+  2223: Honda
+  2224: Humber
+  2225: Husqvarna
+  2226: Hyundai
+  2227: Infiniti
+  2228: Isuzu
+  2229: JAC
+  2230: Jaguar
+  2231: Jeep
+  2232: Jets
+  2233: KHS
+  2234: Kia
+  2235: Koenigsegg
+  2236: Koga Miyata
+  2237: Kogswell Cycles
+  2238: Kona
+  2239: Koryo
+  2240: Kross
+  2241: Kuota
+  2242: Kuwahara
+  2243: Lada
+  2244: Lamborghini
+  2245: Lancia
+  2246: land rover
+  2247: Landwind
+  2248: Lapierre
+  2249: LEAR
+  2250: Lifan
+  2251: Lincoln
+  2252: Litespeed
+  2253: Lotus Cars
+  2254: Magna
+  2255: Mahindra
+  2256: Marussia
+  2257: Maserati
+  2258: Matchless
+  2259: Mavic
+  2260: Mazda
+  2261: McLaren
+  2262: Mercedes-Benz
+  2263: Merlin
+  2264: MG
+  2265: Micro
+  2266: MINI
+  2267: MiO
+  2268: Mitsubishi
+  2269: Momentum
+  2270: Mongoose
+  2271: Montague
+  2272: Motobecane
+  2273: Mustang
+  2274: Nascar
+  2275: Nissan
+  2276: Norco
+  2277: OKQ8
+  2278: Olmo
+  2279: Orbea
+  2280: Orlando
+  2281: Orlen
+  2282: Overland
+  2283: Pagani
+  2284: Pemex
+  2285: Petrobras
+  2286: Petrom
+  2287: Petronas
+  2288: Peugeot
+  2289: Phillips 66
+  2290: PIRELLI
+  2291: PKN Orlen
+  2292: Polo
+  2293: Porsche
+  2294: Porvenir
+  2295: Publix
+  2296: Puch
+  2297: Radio Flyer
+  2298: Raleigh
+  2299: Renault
+  2300: Resource
+  2301: Rover
+  2302: Ruger
+  2303: Saga
+  2304: Santa Fe
+  2305: Santa Maria
+  2306: Schwalbe
+  2307: Schwinn
+  2308: ScotRail
+  2309: SCOTT
+  2310: Shelby
+  2311: Shell
+  2312: Signal
+  2313: Simson
+  2314: skoda
+  2315: Solex
+  2316: Specialized
+  2317: Spyker
+  2318: Ssangyong
+  2319: Steyr
+  2320: Stinger
+  2321: Strada
+  2322: subaru
+  2323: sun
+  2324: Taxi
+  2325: Tesla
+  2326: Total
+  2327: Toyota
+  2328: Tracker
+  2329: Trek Bicycle
+  2330: Troller
+  2331: Turbo
+  2332: TVR
+  2333: Tyrell
+  2334: Ultramar
+  2335: Valero
+  2336: Volkswagen
+  2337: Volvo
+  2338: Vredestein
+  2339: Vulcan
+  2340: Wheelhouse
+  2341: Yamaha
 
 
-# stuff names
-stuff_names: [
-  'banner', 'blanket', 'branch', 'bridge', 'building-other', 'bush', 'cabinet', 'cage',
-  'cardboard', 'carpet', 'ceiling-other', 'ceiling-tile', 'cloth', 'clothes', 'clouds', 'counter', 'cupboard',
-  'curtain', 'desk-stuff', 'dirt', 'door-stuff', 'fence', 'floor-marble', 'floor-other', 'floor-stone', 'floor-tile',
-  'floor-wood', 'flower', 'fog', 'food-other', 'fruit', 'furniture-other', 'grass', 'gravel', 'ground-other', 'hill',
-  'house', 'leaves', 'light', 'mat', 'metal', 'mirror-stuff', 'moss', 'mountain', 'mud', 'napkin', 'net', 'paper',
-  'pavement', 'pillow', 'plant-other', 'plastic', 'platform', 'playingfield', 'railing', 'railroad', 'river', 'road',
-  'rock', 'roof', 'rug', 'salad', 'sand', 'sea', 'shelf', 'sky-other', 'skyscraper', 'snow', 'solid-other', 'stairs',
-  'stone', 'straw', 'structural-other', 'table', 'tent', 'textile-other', 'towel', 'tree', 'vegetable', 'wall-brick',
-  'wall-concrete', 'wall-other', 'wall-panel', 'wall-stone', 'wall-tile', 'wall-wood', 'water-other', 'waterdrops',
-  'window-blind', 'window-other', 'wood',
-  # other
-  'other',
-  # unlabeled
-  'unlabeled'
-]
+# # stuff names
+# stuff_names: [
+#   'banner', 'blanket', 'branch', 'bridge', 'building-other', 'bush', 'cabinet', 'cage',
+#   'cardboard', 'carpet', 'ceiling-other', 'ceiling-tile', 'cloth', 'clothes', 'clouds', 'counter', 'cupboard',
+#   'curtain', 'desk-stuff', 'dirt', 'door-stuff', 'fence', 'floor-marble', 'floor-other', 'floor-stone', 'floor-tile',
+#   'floor-wood', 'flower', 'fog', 'food-other', 'fruit', 'furniture-other', 'grass', 'gravel', 'ground-other', 'hill',
+#   'house', 'leaves', 'light', 'mat', 'metal', 'mirror-stuff', 'moss', 'mountain', 'mud', 'napkin', 'net', 'paper',
+#   'pavement', 'pillow', 'plant-other', 'plastic', 'platform', 'playingfield', 'railing', 'railroad', 'river', 'road',
+#   'rock', 'roof', 'rug', 'salad', 'sand', 'sea', 'shelf', 'sky-other', 'skyscraper', 'snow', 'solid-other', 'stairs',
+#   'stone', 'straw', 'structural-other', 'table', 'tent', 'textile-other', 'towel', 'tree', 'vegetable', 'wall-brick',
+#   'wall-concrete', 'wall-other', 'wall-panel', 'wall-stone', 'wall-tile', 'wall-wood', 'water-other', 'waterdrops',
+#   'window-blind', 'window-other', 'wood',
+#   # other
+#   'other',
+#   # unlabeled
+#   'unlabeled'
+# ]
 
 
-# Download script/URL (optional)
-download: |
-  from utils.general import download, Path
+# # Download script/URL (optional)
+# download: |
+#   from utils.general import download, Path
 
 
-  # Download labels
-  #segments = True  # segment or box labels
-  #dir = Path(yaml['path'])  # dataset root dir
-  #url = 'https://github.com/WongKinYiu/yolov7/releases/download/v0.1/'
-  #urls = [url + ('coco2017labels-segments.zip' if segments else 'coco2017labels.zip')]  # labels
-  #download(urls, dir=dir.parent)
+#   # Download labels
+#   #segments = True  # segment or box labels
+#   #dir = Path(yaml['path'])  # dataset root dir
+#   #url = 'https://github.com/WongKinYiu/yolov7/releases/download/v0.1/'
+#   #urls = [url + ('coco2017labels-segments.zip' if segments else 'coco2017labels.zip')]  # labels
+#   #download(urls, dir=dir.parent)
 
-  # Download data
-  #urls = ['http://images.cocodataset.org/zips/train2017.zip',  # 19G, 118k images
-  #        'http://images.cocodataset.org/zips/val2017.zip',  # 1G, 5k images
-  #        'http://images.cocodataset.org/zips/test2017.zip']  # 7G, 41k images (optional)
-  #download(urls, dir=dir / 'images', threads=3)
+#   # Download data
+#   #urls = ['http://images.cocodataset.org/zips/train2017.zip',  # 19G, 118k images
+#   #        'http://images.cocodataset.org/zips/val2017.zip',  # 1G, 5k images
+#   #        'http://images.cocodataset.org/zips/test2017.zip']  # 7G, 41k images (optional)
+#   #download(urls, dir=dir / 'images', threads=3)
