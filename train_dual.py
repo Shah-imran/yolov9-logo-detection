@@ -533,6 +533,7 @@ def main(opt, callbacks=Callbacks()):
         device = torch.device('cuda', LOCAL_RANK)
         dist.init_process_group(backend="nccl" if dist.is_nccl_available() else "gloo")
 
+        torch.cuda.empty_cache()
     # Train
     if not opt.evolve:
         train(opt.hyp, opt, device, callbacks)

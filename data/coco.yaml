@@ -1,4 +1,4 @@
-path: ../datasets/logo  # dataset root dir
+path: ../yolov9-logo-detection/datasets/logo  # dataset root dir
 train: train_images_root.txt  # train images (relative to 'path') 118287 images
 val: val_images_root.txt  # val images (relative to 'path') 5000 images
 test: test_images_root.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
