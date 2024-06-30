@@ -164,7 +164,7 @@ Data preparation
 ``` shell
 bash scripts/get_coco.sh
 ```
-
+Logo Dataset for yolo https://drive.google.com/file/d/1Iz3-KRrpprIYg2BX-I7Xct6KUEXHIJts/view?usp=sharing
 * Download MS COCO dataset images ([train](http://images.cocodataset.org/zips/train2017.zip), [val](http://images.cocodataset.org/zips/val2017.zip), [test](http://images.cocodataset.org/zips/test2017.zip)) and [labels](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/coco2017labels-segments.zip). If you have previously used a different version of YOLO, we strongly recommend that you delete `train2017.cache` and `val2017.cache` files, and redownload [labels](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/coco2017labels-segments.zip) 
 
 Single GPU training
