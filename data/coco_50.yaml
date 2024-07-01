@@ -52,4 +52,4 @@ names:
 path: ../yolov9-logo-detection/datasets/logo_small
 test: test_images_root.txt
 train: train_images_root.txt
-val: val_images_root.txt
+val: test_images_root.txt
