@@ -1,17 +1,12 @@
-# Modified dataset with labels for yolo
-Logo Dataset for yolo https://drive.google.com/file/d/1Iz3-KRrpprIYg2BX-I7Xct6KUEXHIJts/view?usp=sharing
+# LOGO DETECTION WITH YOLOv9
 
+## Special Instruction for training and data preparation
 
-# YOLOv9
+* Download and Extract this in the root directly. Adjust the paths in the train_images_root.txt, test_images_root.txt and val_images_root.txt files according to your system.
 
-# Special Instruction for training
-# Dataset prepared for training 
-Google Drive - https://drive.google.com/file/d/1HWfWmbahhcoImG8N0BCNcsyM2WfS9eWR/view?usp=sharing
+* Go thorugh the steps of this notebook [data_preparation.ipynb](data_preparation.ipynb) for replication of data preparation with customer number of classes 
 
-Download and Extract this in the root directly. Adjust the paths in the train_images_root.txt, test_images_root.txt and val_images_root.txt files according to your system.
-
-Go thorugh the steps of this notebook [data_preparation.ipynb](data_preparation.ipynb) for replication of data preparation with customer number of classes 
-
+# Yolov9
 
 Implementation of paper - [YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information](https://arxiv.org/abs/2402.13616)
 
