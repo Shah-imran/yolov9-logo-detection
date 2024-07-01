@@ -1,0 +1,505 @@
+names:
+  0: OMAS
+  1: Oat Cluster Cheerios Crunch
+  2: Perugina Baci
+  3: CTG
+  4: Glock
+  5: Cathay
+  6: Ben & Jerry's
+  7: Brioni
+  8: Alfa Romeo
+  9: Willem II
+  10: Toy Machine
+  11: Ace
+  12: Zar
+  13: SAKURA
+  14: Reynolds
+  15: Yazoo Chill
+  16: Bounty
+  17: Cigar City
+  18: Gremlins
+  19: Domus
+  20: Belvita
+  21: Chicos
+  22: Coors
+  23: NEI
+  24: Stouffers
+  25: 1800 Tequila
+  26: SUPER8
+  27: Aero Contractors
+  28: Smart Start
+  29: Batman
+  30: Yellow Cab Pizza Co
+  31: VIA
+  32: Gota
+  33: Noble
+  34: Pepsodent
+  35: Mikasa
+  36: Citroen
+  37: Cool Whip
+  38: Toronto
+  39: Krave
+  40: Cenex
+  41: Crumpler
+  42: Edison
+  43: Shake 'n Bake
+  44: Shreddies
+  45: Pantech
+  46: Shoprite
+  47: Kent
+  48: Colossal Crunch
+  49: Ultima
+  50: Aurora
+  51: Tyrrells Apple Chips
+  52: Diamant
+  53: Carling Black Label
+  54: Christina
+  55: PKN Orlen
+  56: Molson Golden
+  57: Lady's Choice
+  58: Oral-B
+  59: Westminster
+  60: Shrek's
+  61: Rekorderlig
+  62: Vision
+  63: Astro
+  64: Kendo
+  65: A1 Steak Sauce
+  66: Bahia
+  67: Black Angus Steakhouse
+  68: Charge
+  69: Atala
+  70: Lancia
+  71: CTC
+  72: Alsa
+  73: Luxor
+  74: Corn Pops
+  75: BAE
+  76: Mazzio's
+  77: Casino
+  78: seven-up
+  79: High Point
+  80: Trio
+  81: Toshiba
+  82: Tauro
+  83: Streets
+  84: Savory
+  85: Typhoo
+  86: Burberry
+  87: CHINA CITIC
+  88: SNOOPY
+  89: Diplomaticos
+  90: Organics
+  91: Memphis
+  92: Grapette
+  93: De Rosa
+  94: Nestum
+  95: Santa Rosa
+  96: thirst cola
+  97: Patron
+  98: Bang & Olufsen
+  99: Litespeed
+  100: Multitech
+  101: Amsterdam
+  102: Airfix
+  103: Toll House
+  104: BaiDaFu
+  105: Temptations
+  106: SUNING
+  107: Kraft Eating Right
+  108: Blaser
+  109: Brasil & Movimento
+  110: Alpha-Bits
+  111: Arcadia
+  112: CHRISTOFLE
+  113: Maker's Mark
+  114: Peperami
+  115: Fram
+  116: El Jimador
+  117: Molson Dry
+  118: El Paso
+  119: Don Tomas
+  120: Nilla
+  121: Nissan
+  122: Metamucil
+  123: Heinz
+  124: I Can't Believe It's Not Butter
+  125: Mongoose
+  126: Canon
+  127: Ducati
+  128: Original Penguin
+  129: Air Transport International
+  130: Minute Rice
+  131: Dutch Bros. Coffee
+  132: Double Chocolate Krave
+  133: JVC
+  134: Compact
+  135: Westfield
+  136: Covert
+  137: Boses
+  138: Lux
+  139: LLC
+  140: Tabacos Baez
+  141: Gibbs
+  142: Magners Irish
+  143: BJ's Wholesale Club
+  144: ROBERTS
+  145: land rover
+  146: BMC
+  147: SPC
+  148: United Biscuits
+  149: Lava
+  150: chanel
+  151: Van Camp's
+  152: Galp
+  153: SGI
+  154: Olympus
+  155: Fairy
+  156: Brilliance
+  157: Genius
+  158: Basso
+  159: Twisties
+  160: Air Sunshine
+  161: Sainsbury's
+  162: Aztec
+  163: Cresta
+  164: Taibai
+  165: IBM
+  166: Root Beer
+  167: Diet Mountain Dew
+  168: Country Crock
+  169: Gerber
+  170: Yinlu Food
+  171: Maynards
+  172: Sara
+  173: BP
+  174: Tsingtao
+  175: Lewis
+  176: Google
+  177: Cailler
+  178: Swedish Glace
+  179: Persil
+  180: Limca
+  181: Toffee Crisp
+  182: Fox
+  183: Nissin
+  184: Schweppes Tonic
+  185: Black Horse
+  186: M & M's
+  187: Atlanta
+  188: Balance
+  189: Sonic Drive-In
+  190: Bottle Caps
+  191: Hot Pockets
+  192: Breath Savers
+  193: Pechoin
+  194: Stearns
+  195: haagen-dazs
+  196: Prince Polo
+  197: Caloi
+  198: Smashburger
+  199: Dogwood
+  200: Chili's
+  201: Anglo Bubbly
+  202: Hoffman
+  203: DMC
+  204: Becel
+  205: Sheaffer
+  206: Aldi
+  207: Brut
+  208: Rice Krispies
+  209: HMV
+  210: Saga
+  211: Crystal1
+  212: Sprite Zero
+  213: Domino's Pizza
+  214: Helados La Fuente
+  215: U.S. Traveler
+  216: Downy
+  217: TECO
+  218: Julmust
+  219: Uway
+  220: Rogue
+  221: GoPro
+  222: Mack & Dave's Department Store
+  223: Orlen
+  224: Errea
+  225: Oops All Berries
+  226: Lego
+  227: Soundwave
+  228: Eco de los Andes
+  229: Mitchells & Butlers
+  230: H. J. Heinz
+  231: Audar
+  232: Infiniti
+  233: Sampo
+  234: Del Monte
+  235: Rewe
+  236: Numi Organic
+  237: Ask
+  238: Belinda
+  239: Hypson
+  240: Penn
+  241: Aqua D'Or
+  242: Milka
+  243: Sector
+  244: Centurion
+  245: IHOP
+  246: Nelsons's
+  247: Beacon
+  248: Matchmakers
+  249: Impulse
+  250: Victoria's Secret
+  251: Air Evac
+  252: Cocio
+  253: Skippy
+  254: Kecap Bango
+  255: Air Cargo Carriers
+  256: Stretch Island Fruit
+  257: Granville
+  258: Milo cereals
+  259: OKs
+  260: Universum
+  261: Juno
+  262: ProLine
+  263: Aqua Spring
+  264: Dyson
+  265: Kicker
+  266: Dulce Vida
+  267: Calypso
+  268: Sana
+  269: C.A.O
+  270: Europa
+  271: Gibson
+  272: DC Shoes
+  273: Casio
+  274: nau
+  275: Cinnamon Toast Crunch
+  276: KTM
+  277: Walton
+  278: Apple Cinnamon Chex
+  279: Back to Nature
+  280: Maple & Brown
+  281: Svea
+  282: Orville Redenbacher's
+  283: Thomson
+  284: Merlin
+  285: Voss (water)
+  286: Black Label Skateboards
+  287: Seven
+  288: Krystal
+  289: Sainte
+  290: Monopoly
+  291: Snow Flakes
+  292: Bushnell
+  293: The Fairly OddParents
+  294: Snack Attack
+  295: Fusion
+  296: BARLIE
+  297: Stayfree
+  298: Froot Loops
+  299: Butterfinger Bites
+  300: South Beach
+  301: MICROPLANE
+  302: Mirage
+  303: Knorr
+  304: Astor
+  305: Tim Tam
+  306: Allorgan
+  307: Petro
+  308: Pocari Sweat
+  309: Luhua
+  310: Leed
+  311: Nelson
+  312: Neckermann
+  313: TMA
+  314: Maserati
+  315: Cooke
+  316: Richfield
+  317: Reebok
+  318: Star Energy
+  319: Albertsons
+  320: Church's
+  321: Poland Spring
+  322: Birmingham
+  323: Matt
+  324: aceh
+  325: The Halal
+  326: MSI
+  327: Eastpak
+  328: Brandt
+  329: Pick 'N Pay
+  330: Woodchuck Hard
+  331: CMC
+  332: Pilot
+  333: Mondia
+  334: Uiltje
+  335: MARLBORO
+  336: Panera Bread
+  337: Cote d'Or
+  338: Murray
+  339: T.G.I. Friday's
+  340: Lane
+  341: Alpo
+  342: G-Unit
+  343: Smith & Forge Hard
+  344: JMP
+  345: Tchibo
+  346: AMD
+  347: Marconi
+  348: Maxibon
+  349: Healthy Choice
+  350: Emo
+  351: Triumph
+  352: Marvel
+  353: Caffrey's
+  354: RaceWay
+  355: Gambit
+  356: Wingstop
+  357: Reese's Puffs
+  358: Mario's Pizzeria
+  359: Kroger
+  360: Oliva
+  361: Siboney
+  362: Emerica
+  363: Ashbury
+  364: Neutral
+  365: Applebee's
+  366: Brio
+  367: Nestle Princessa
+  368: Adio
+  369: Sharp
+  370: STO
+  371: Teleton
+  372: Detroit
+  373: Dodge
+  374: Braun
+  375: samsung
+  376: MaggieMoo's Ice Cream and Treatery
+  377: Victoria
+  378: Angelina
+  379: Spyker
+  380: Hisense
+  381: swan
+  382: Sansui
+  383: Calvin Klein
+  384: Hield
+  385: Rex
+  386: Birdy
+  387: Heartland
+  388: Kwality Wall's
+  389: JS
+  390: MDX
+  391: Vive
+  392: Swann
+  393: Thorn
+  394: APCO
+  395: Arrowhead
+  396: Dentyne
+  397: Picnic
+  398: Osiris Shoes
+  399: Weaver
+  400: Norco
+  401: Wotsits
+  402: LS
+  403: BSA
+  404: Avanti
+  405: Meswak
+  406: Conimex
+  407: Stella Artois Cidre
+  408: Esselte
+  409: Gain
+  410: Domino
+  411: Backwoods
+  412: Nelly
+  413: Salewa
+  414: Count Chocula
+  415: Nine West
+  416: McDonalds
+  417: OMV
+  418: Transcend
+  419: Costco Wholesale
+  420: Ibis
+  421: Realtor
+  422: Thistly Cross
+  423: Tiny Toon Adventures
+  424: Barq's
+  425: Andy Capp's fries
+  426: Bold
+  427: Ampeg
+  428: Eukanuba
+  429: Skip
+  430: Pepperidge Farm
+  431: Toddy (PepsiCo)
+  432: Alien Workshop
+  433: Casa Noble
+  434: Buxton
+  435: Conoco
+  436: K-Swiss
+  437: MARC BY MARC JACOBS
+  438: Frigo
+  439: KR3W
+  440: SeaLife
+  441: Denver
+  442: ScotRail
+  443: Sysline
+  444: Island
+  445: Logitech
+  446: MONDI
+  447: MiO
+  448: PEL
+  449: Chef Boyardee
+  450: Berkshire
+  451: Allbright
+  452: La Casona
+  453: Annapurna
+  454: Colonial1
+  455: Outback Steakhouse
+  456: Sessions
+  457: Mustang
+  458: Steyr
+  459: Baccarat
+  460: Continental
+  461: Papa Murphy's
+  462: Brother
+  463: Macy's
+  464: Bayern
+  465: Mojang
+  466: Kingdom
+  467: Gobstoppers
+  468: Hanwag
+  469: Twix
+  470: Lipton
+  471: TravelCenters
+  472: Strongbow
+  473: Douwe Egberts
+  474: Edeka
+  475: Clinica
+  476: Oatibix
+  477: Capri Sun
+  478: qiaqia
+  479: Runza
+  480: Montague
+  481: Barracuda
+  482: Heineken
+  483: Chevrolet
+  484: White Castle
+  485: Diamondback
+  486: Big Red
+  487: Old Spice
+  488: Dominique
+  489: PJ's Coffee
+  490: High School Musical
+  491: California
+  492: Caramel
+  493: Shorai
+  494: Appletiser
+  495: Lean Pockets
+  496: SureFire
+  497: oppo
+  498: Red Rock
+  499: BCP
+path: ../yolov9-logo-detection/datasets/logo_small (copy)
+test: test_images_root.txt
+train: train_images_root.txt
+val: val_images_root.txt

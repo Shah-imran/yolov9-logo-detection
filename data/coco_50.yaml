@@ -1,0 +1,55 @@
+names:
+  0: JMP
+  1: Poland Spring
+  2: Google
+  3: Heartland
+  4: Lego
+  5: Ibis
+  6: SGI
+  7: Bushnell
+  8: Richfield
+  9: MDX
+  10: Wotsits
+  11: Limca
+  12: Gota
+  13: Stretch Island Fruit
+  14: Panera Bread
+  15: Victoria
+  16: Nestum
+  17: Domus
+  18: Conimex
+  19: La Casona
+  20: Toll House
+  21: Black Label Skateboards
+  22: Maserati
+  23: Amsterdam
+  24: Breath Savers
+  25: Uway
+  26: Sharp
+  27: Perugina Baci
+  28: MSI
+  29: OMAS
+  30: Astor
+  31: Cote d'Or
+  32: Juno
+  33: Willem II
+  34: Diamant
+  35: BP
+  36: Fairy
+  37: Mack & Dave's Department Store
+  38: Clinica
+  39: Pepsodent
+  40: Krystal
+  41: Alpo
+  42: Trio
+  43: Barq's
+  44: CTC
+  45: Lady's Choice
+  46: Capri Sun
+  47: MARC BY MARC JACOBS
+  48: DC Shoes
+  49: Nestle Princessa
+path: ../yolov9-logo-detection/datasets/logo_small
+test: test_images_root.txt
+train: train_images_root.txt
+val: val_images_root.txt

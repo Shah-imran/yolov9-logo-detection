@@ -1,306 +1,125 @@
-names:
-  0: Gull
-  1: Honey Smacks
-  2: Parker
-  3: Pac-Man
-  4: Costa Coffee
-  5: ConAgra Foods
-  6: Captain Planet
-  7: Highland Spring
-  8: 100 anos
-  9: Powwow
-  10: Contax
-  11: Burtons
-  12: Marathon Petroleum
-  13: Ashton
-  14: Quality
-  15: Philips
-  16: PowerBar
-  17: Radical
-  18: Suchard
-  19: 1800 Tequila
-  20: Life is good
-  21: Stanley
-  22: Pepperidge Farm
-  23: Condor
-  24: Pepsi Max
-  25: Brut
-  26: Ascari
-  27: Roses
-  28: Bulmers and
-  29: HP Sauce
-  30: Tamarind
-  31: DARLIE
-  32: Tchibo
-  33: LIVESCRIBE
-  34: Ecco
-  35: Fujitsu
-  36: coles
-  37: MediaTek
-  38: Koga Miyata
-  39: Chopard
-  40: Sunoco
-  41: Mikkeller
-  42: Electra
-  43: Tesla
-  44: Cool Whip
-  45: Double Chocolate Cookie Crisp
-  46: JD
-  47: Beacon
-  48: Rex
-  49: AirTran Airways
-  50: Omo
-  51: Deer Park
-  52: Eastpak
-  53: SureFire
-  54: SR
-  55: Shaw
-  56: AND1
-  57: Che
-  58: O'Charley's
-  59: Chocomel
-  60: Apple Cinnamon Chex
-  61: Donkey Kong
-  62: Tylenol
-  63: Cannondale
-  64: Brooklyn
-  65: Impulse
-  66: Teddy Grahams
-  67: Hancock
-  68: Pearson
-  69: Bassett's
-  70: Dominique
-  71: Hooters
-  72: Douwe Egberts
-  73: Aquafresh
-  74: Lux
-  75: Schweppes Tonic
-  76: Nordstrom Rack
-  77: Stretch Island Fruit
-  78: Norco
-  79: Maserati
-  80: Cameron's
-  81: Danone
-  82: IHOP
-  83: Gorila
-  84: Special K
-  85: Elsa
-  86: Pebbles
-  87: Bakers
-  88: Rainbow Nerds
-  89: Timotei
-  90: Algida
-  91: Trakinas
-  92: TVR
-  93: Lemonade
-  94: LeBlanc
-  95: CGE
-  96: Bold
-  97: Cigar City
-  98: MONDI
-  99: A1 Steak Sauce
-  100: Cherry 7Up
-  101: Crazy Cow
-  102: Ben & Jerry's
-  103: Ted Drewes
-  104: Winn-Dixie
-  105: Baltimore
-  106: Renault
-  107: Herron
-  108: Argo
-  109: Phillies
-  110: Pantech
-  111: Arc
-  112: Pentium
-  113: JAC
-  114: Nestle
-  115: Oreo
-  116: KYOCERA
-  117: Escada
-  118: Delta
-  119: Brother
-  120: Ovaltine
-  121: Crayola
-  122: Stressless
-  123: Thorn
-  124: Telepizza
-  125: Del Monte
-  126: Bristol
-  127: diamond
-  128: Colgate
-  129: STO
-  130: Uno Chicago Grill
-  131: Turbo
-  132: Freightliner
-  133: Harrison
-  134: Nintendo
-  135: Preem
-  136: Michigan
-  137: Heinz Baked Beans
-  138: Morgan
-  139: Sharp
-  140: Backwoods
-  141: Gazelle
-  142: Crunch
-  143: CMC
-  144: Lifan
-  145: Karma
-  146: Anteros
-  147: Kaiser
-  148: Shakey's Pizza
-  149: Lord & Taylor
-  150: Montecristo
-  151: Colonial1
-  152: Lexi
-  153: Phase One
-  154: Ski
-  155: American Machine and Foundry
-  156: Milkybar
-  157: Porsche
-  158: Alien Workshop
-  159: South Beach
-  160: Applek
-  161: Premier
-  162: Buffalo
-  163: Nestea
-  164: Heartland
-  165: Peerless
-  166: Mahindra
-  167: Copeland's
-  168: Polaroid
-  169: Anna Sui
-  170: Twisties
-  171: Celestial Seasonings
-  172: Salewa
-  173: Supreme
-  174: Molson
-  175: Dove
-  176: chanel
-  177: Cathay
-  178: ITS
-  179: Maverik Inc
-  180: Breguet
-  181: Kia
-  182: Valdez
-  183: Refreshers Gums
-  184: Ross
-  185: Johnson & Phillips
-  186: Contec
-  187: PAM
-  188: Marriott International
-  189: Trix
-  190: Star Wars
-  191: k-mart
-  192: La Perla
-  193: Bexley
-  194: Circa
-  195: JL Audio
-  196: Cheer
-  197: Loyd
-  198: Barr
-  199: Danish
-  200: MINI
-  201: Arrowhead
-  202: Sesame Street
-  203: Newark
-  204: Neutral
-  205: Bajaj
-  206: Mirc
-  207: Diana
-  208: MP
-  209: ORLANE
-  210: Sauza
-  211: Baker Skateboards
-  212: Frisco
-  213: Pick 'N Pay
-  214: Burger King
-  215: Amsterdam
-  216: Litespeed
-  217: Speakeasy
-  218: Fred Meyer
-  219: Patron
-  220: bilang
-  221: Orbit
-  222: KHS
-  223: Airfix
-  224: Vans
-  225: Monster
-  226: Breath Savers
-  227: Cuisinart
-  228: Valero
-  229: land rover
-  230: Leadtek
-  231: Drifter
-  232: Vault
-  233: Casio
-  234: Getty
-  235: Rice Krispies
-  236: Annapurna
-  237: Island
-  238: Nobby's Nuts
-  239: Glock
-  240: Walch
-  241: Ameriflight
-  242: Amstrad
-  243: MR
-  244: Gibson
-  245: Snapz Crisps
-  246: Almost Skateboards
-  247: Nelson
-  248: Skittles
-  249: Panama
-  250: Shredded Oats
-  251: Globe
-  252: Dimension
-  253: Church's
-  254: Quoizel
-  255: Fruit 'n Fibre
-  256: Snapple
-  257: Brio
-  258: Kecap Bango
-  259: INDUSTRIAL AND COMMERCIAL BANK OF CHINA
-  260: Genesis
-  261: Wingstop
-  262: Gobstoppers
-  263: Tic Tac
-  264: Lakefront
-  265: Greensboro
-  266: Starbucks
-  267: Olive Garden
-  268: Cat in the Hat
-  269: TMA
-  270: Elf
-  271: Zenith
-  272: Fairtex
-  273: Brooke
-  274: Arnotts
-  275: Brilliance
-  276: Cruz Tequila
-  277: Acer
-  278: Oat Crisp
-  279: Glee Gum
-  280: Bomber
-  281: Micro
-  282: SEI
-  283: Tayto Fusion
-  284: Clinica
-  285: MTs
-  286: McCoys Crisps
-  287: Yinlu Food
-  288: Keystone Light
-  289: SNOOPY
-  290: Kyoto
-  291: Blue Hills
-  292: GEFU
-  293: SVA
-  294: MARLBORO
-  295: Buick
-  296: Hanes
-  297: Intermarche
-  298: Joy
-  299: Krystal
+path: ../datasets/coco  # dataset root dir
+train: train2017.txt  # train images (relative to 'path') 118287 images
+val: val2017.txt  # val images (relative to 'path') 5000 images
+test: test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
 
-path: ../yolov9-logo-detection/datasets/logo_small
-test: test_images_root.txt
-train: train_images_root.txt
-val: val_images_root.txt
+# Classes
+names:
+  0: person
+  1: bicycle
+  2: car
+  3: motorcycle
+  4: airplane
+  5: bus
+  6: train
+  7: truck
+  8: boat
+  9: traffic light
+  10: fire hydrant
+  11: stop sign
+  12: parking meter
+  13: bench
+  14: bird
+  15: cat
+  16: dog
+  17: horse
+  18: sheep
+  19: cow
+  20: elephant
+  21: bear
+  22: zebra
+  23: giraffe
+  24: backpack
+  25: umbrella
+  26: handbag
+  27: tie
+  28: suitcase
+  29: frisbee
+  30: skis
+  31: snowboard
+  32: sports ball
+  33: kite
+  34: baseball bat
+  35: baseball glove
+  36: skateboard
+  37: surfboard
+  38: tennis racket
+  39: bottle
+  40: wine glass
+  41: cup
+  42: fork
+  43: knife
+  44: spoon
+  45: bowl
+  46: banana
+  47: apple
+  48: sandwich
+  49: orange
+  50: broccoli
+  51: carrot
+  52: hot dog
+  53: pizza
+  54: donut
+  55: cake
+  56: chair
+  57: couch
+  58: potted plant
+  59: bed
+  60: dining table
+  61: toilet
+  62: tv
+  63: laptop
+  64: mouse
+  65: remote
+  66: keyboard
+  67: cell phone
+  68: microwave
+  69: oven
+  70: toaster
+  71: sink
+  72: refrigerator
+  73: book
+  74: clock
+  75: vase
+  76: scissors
+  77: teddy bear
+  78: hair drier
+  79: toothbrush
+
+
+# stuff names
+stuff_names: [
+  'banner', 'blanket', 'branch', 'bridge', 'building-other', 'bush', 'cabinet', 'cage',
+  'cardboard', 'carpet', 'ceiling-other', 'ceiling-tile', 'cloth', 'clothes', 'clouds', 'counter', 'cupboard',
+  'curtain', 'desk-stuff', 'dirt', 'door-stuff', 'fence', 'floor-marble', 'floor-other', 'floor-stone', 'floor-tile',
+  'floor-wood', 'flower', 'fog', 'food-other', 'fruit', 'furniture-other', 'grass', 'gravel', 'ground-other', 'hill',
+  'house', 'leaves', 'light', 'mat', 'metal', 'mirror-stuff', 'moss', 'mountain', 'mud', 'napkin', 'net', 'paper',
+  'pavement', 'pillow', 'plant-other', 'plastic', 'platform', 'playingfield', 'railing', 'railroad', 'river', 'road',
+  'rock', 'roof', 'rug', 'salad', 'sand', 'sea', 'shelf', 'sky-other', 'skyscraper', 'snow', 'solid-other', 'stairs',
+  'stone', 'straw', 'structural-other', 'table', 'tent', 'textile-other', 'towel', 'tree', 'vegetable', 'wall-brick',
+  'wall-concrete', 'wall-other', 'wall-panel', 'wall-stone', 'wall-tile', 'wall-wood', 'water-other', 'waterdrops',
+  'window-blind', 'window-other', 'wood',
+  # other
+  'other',
+  # unlabeled
+  'unlabeled'
+]
+
+
+# Download script/URL (optional)
+download: |
+  from utils.general import download, Path
+
+
+  # Download labels
+  #segments = True  # segment or box labels
+  #dir = Path(yaml['path'])  # dataset root dir
+  #url = 'https://github.com/WongKinYiu/yolov7/releases/download/v0.1/'
+  #urls = [url + ('coco2017labels-segments.zip' if segments else 'coco2017labels.zip')]  # labels
+  #download(urls, dir=dir.parent)
+
+  # Download data
+  #urls = ['http://images.cocodataset.org/zips/train2017.zip',  # 19G, 118k images
+  #        'http://images.cocodataset.org/zips/val2017.zip',  # 1G, 5k images
+  #        'http://images.cocodataset.org/zips/test2017.zip']  # 7G, 41k images (optional)
+  #download(urls, dir=dir / 'images', threads=3)
