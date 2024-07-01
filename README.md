@@ -1,11 +1,12 @@
 # LOGO DETECTION WITH YOLOv9
 
-# Special Instruction for training and data preparation
+## Special Instruction for training and data preparation
 
 * Download and Extract this in the root directly. Adjust the paths in the train_images_root.txt, test_images_root.txt and val_images_root.txt files according to your system.
 
 * Go thorugh the steps of this notebook [data_preparation.ipynb](data_preparation.ipynb) for replication of data preparation with customer number of classes 
 
+# Yolov9
 
 Implementation of paper - [YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information](https://arxiv.org/abs/2402.13616)
 
