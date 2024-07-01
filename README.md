@@ -4,6 +4,12 @@ Logo Dataset for yolo https://drive.google.com/file/d/1Iz3-KRrpprIYg2BX-I7Xct6KU
 
 # YOLOv9
 
+# Dataset prepared for training 
+Google Drive - https://drive.google.com/file/d/1HWfWmbahhcoImG8N0BCNcsyM2WfS9eWR/view?usp=sharing
+
+Download and Extract this in the root directly. Adjust the paths in the train_images_root.txt, test_images_root.txt and val_images_root.txt files according to your system.
+
+
 Implementation of paper - [YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information](https://arxiv.org/abs/2402.13616)
 
 [![arxiv.org](http://img.shields.io/badge/cs.CV-arXiv%3A2402.13616-B31B1B.svg)](https://arxiv.org/abs/2402.13616)
