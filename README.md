@@ -1,8 +1,4 @@
-# Modified dataset with labels for yolo
-Logo Dataset for yolo https://drive.google.com/file/d/1Iz3-KRrpprIYg2BX-I7Xct6KUEXHIJts/view?usp=sharing
-
-
-# YOLOv9
+# LOGO DETECTION WITH YOLOv9
 
 # Special Instruction for training
 # Dataset prepared for training 
