@@ -1,9 +1,12 @@
 # YOLOv9
 
+# Special Instruction for training
 # Dataset prepared for training 
 Google Drive - https://drive.google.com/file/d/1HWfWmbahhcoImG8N0BCNcsyM2WfS9eWR/view?usp=sharing
 
 Download and Extract this in the root directly. Adjust the paths in the train_images_root.txt, test_images_root.txt and val_images_root.txt files according to your system.
+
+Go thorugh the steps of this notebook [data_preparation.ipynb](data_preparation.ipynb) for replication of data preparation with customer number of classes 
 
 
 Implementation of paper - [YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information](https://arxiv.org/abs/2402.13616)
